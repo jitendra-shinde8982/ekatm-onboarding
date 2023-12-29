@@ -243,6 +243,8 @@ circle {
 }
 
 .profile-imgs img {
+    border: 3px solid #fff;
+    border-radius: 50%;
     width: 135px;
     height: 135px;
 }
