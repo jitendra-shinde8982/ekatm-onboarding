@@ -246,13 +246,25 @@ circle {
     width: 135px;
     height: 135px;
 }
+.btn-backresp {
+    margin: 5px;
+    background: #fff;
+    padding: 5px 8px;
+    border-radius: 50%;
+}
 
 /*****************************************************************************************************
                                          Miscellaneous CSS
  ******************************************************************************************************/
-
+.hidden-tag {
+    display: none!important;
+    visibility: hidden!important;
+}
 .d_flex {
     display: flex;
+}
+.d-nb-resp{
+    display: none;
 }
 
 .d_flex_list {
@@ -350,12 +362,12 @@ circle {
 
 .Mandatory-f-border:focus {
     outline: none;
-    border: 2px solid #fdc4c4 !important;
+    border: 2px solid #F8000F !important;
 
 }
 
 .Mandatoryborder {
-    border: 1px solid #fdc4c4 !important;
+    border: 1px solid #F8000F  !important;
 }
 
 /* **** */
@@ -535,6 +547,9 @@ circle {
 
 
 @media only screen and (max-width: 600px) {
+    .d-nb-resp{
+        display: block;
+    }
     .login_body img {
         width: 230px;
         margin-top: 20px;
