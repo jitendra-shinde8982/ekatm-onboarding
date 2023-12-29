@@ -14,8 +14,18 @@ function Createprofile(){
     $("#createProfile").show();
     $("#closeProfile").hide();
 }
+function AddpersnoalDetails() {
+    closeProfile_2
+    $("#createProfile_2").show();
+    $("#closeProfile_2").hide();
+
+}
+
  function loginBtn(){
-    window.location.href = "forms/profile_screen_1.index.html";
+    window.location.href = "forms/profile_screen_1.html";
+ }
+ function personalDetails(){
+    window.location.href = "profile_screen_2.html";
  }
  function closemenu(){
     $("#closeProfile").show();
