@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="asset/css/style.css">
+</head>
+<body>
+    <div class="onbording_panel">
+        <div class="login_logo">
+            <img src="asset/images/Vritti_logo.png" class="logo_img">
+        </div>
+        <div class="login_body">
+            <img src="asset/images/otp_bg.png">
+            <form action="">
+                <div class="login_heading">
+                    <label>Enter the OTP to Log In</label>
+                </div>
+                <div class="login_field">
+                    <input type="text">
+                    <input type="text">
+                    <input type="text">
+                    <input type="text">
+                    <input type="text">
+                    <input type="text">
+                </div>
+                <div class="login_button" onclick="loginBtn()">
+                    <input type="button" value="Submit" class="btn_login">
+                </div>
+            </form>
+            <div class="otp-heading">
+                <p>Your code will expire in <span> 0:180 sec</span></p>
+                <h3 class="resend-heading">Didn’t receive yet? <a href="#">Resend OTP</a></h3>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="../asset/js/jquery-3.7.1.min.js"></script>
+    <script src="../asset/js/index.js"></script>
+</body>
+</html>
