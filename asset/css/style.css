@@ -593,6 +593,7 @@ circle {
     .subMenu_heading li {
         background: #E0E0E0;
         color: #323131;
+        padding: 14px 15px;
     }
     .profile_menu h3 {
         font-size: 24px;
