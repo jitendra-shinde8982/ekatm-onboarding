@@ -1,4 +1,5 @@
 $("#openaddress").hide();
+$("#closeExperiance").hide();
 
 
 function iconhide_1(){
@@ -15,10 +16,20 @@ function Createprofile(){
     $("#closeProfile").hide();
 }
 function AddpersnoalDetails() {
-    closeProfile_2
+
     $("#createProfile_2").show();
     $("#closeProfile_2").hide();
 
+}
+function addWorkExp(){
+ $("#creatework").show()
+ $("#closework").hide();
+ 
+}
+
+function collapsExperiance() {
+    $("#closeExperiance").show();
+    // $("#closeExperiance").hide()
 }
 
  function loginBtn(){
@@ -29,6 +40,12 @@ function AddpersnoalDetails() {
  }
  function closemenu(){
     $("#closeProfile").show();
+ }
+ function closemenu2(){
+    $("#closeProfile_2").show();
+ }
+ function closemenu3(){
+    $("#closework").show();
  }
 
  function previewFile() {
