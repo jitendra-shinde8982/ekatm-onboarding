@@ -38,6 +38,9 @@ function collapsExperiance() {
  function personalDetails(){
     window.location.href = "profile_screen_2.html";
  }
+ function workPage(){
+    window.location.href = "profile_screen_3.html";
+ }
  function closemenu(){
     $("#closeProfile").show();
  }
