@@ -123,10 +123,10 @@ body {
 }
 
 .profile_container {
-    background: url(../images/cover_pic.png);
+    /* background: url(../images/cover_pic.png);
     background-size: 100% 25%;
     background-repeat: no-repeat;
-    background-position: center top;
+    background-position: center top; */
     width: 75%;
     position: relative;
 }
@@ -172,11 +172,17 @@ body {
     background: #0063AE !important;
     color: #fff !important;
 }
+/* .profile_bg{
+    background: url(../images/cover_pic.png);
+    background-size: 100% 25%;
+    background-repeat: no-repeat;
+    background-position: center top;
+} */
 
 .profile-imgs {
     text-align: center;
     position: absolute;
-    top: 18%;
+    top: 70%;
     left: 0;
     right: 0;
 }
@@ -199,7 +205,11 @@ body {
 /*****************************************************************************************************
                                          Miscellaneous CSS
  ******************************************************************************************************/
-.hidden-tag {
+.pst_rel{
+    position: relative;
+}
+
+ .hidden-tag {
     display: none!important;
     visibility: hidden!important;
 }
@@ -216,6 +226,9 @@ body {
 }
 
 /* Margins */
+.mar_t80px{
+    margin-top: 80px;
+}
 .mar_t25per{
     margin-top: 25% ;
 }
@@ -256,6 +269,9 @@ body {
 
 
 /* Paddings */
+.padd_5px{
+    padding: 5px;
+}
 .padd_tb10lr25{
     padding: 10px 25px;
 }
@@ -266,6 +282,7 @@ body {
 .text_center{
     text-align: center;
 }
+
 
 /*****************************************************************************************************
                                             Floating Label  
@@ -285,6 +302,15 @@ body {
     font-weight: 600;
     margin-bottom: 5px;
     line-height: normal;
+}
+.heading_blue {
+    color: #0063AE;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 10px;
 }
 
 .floating-label {
@@ -512,6 +538,40 @@ body {
     cursor: pointer;
 
 }
+.cover_bg {
+    width: 100%;
+    height: 260px;
+}
+
+.social_icon{
+    text-align: center;
+    padding: 5px;
+}
+
+.just-space-eve{
+    justify-content: space-evenly;
+}
+.img_icon {
+ position: relative;
+}
+.social_img{
+   cursor: pointer;
+   width: 80px;
+}
+.tick_icon{
+    position: absolute;
+    right: 15px;
+    width: 20px;
+}
+.social_icon .icon_name{
+    color: var(--Text-color-for-onboarding, #323131);
+    margin: 5px 0;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
 
 /*************************************************************************************************
                                  Custom Checkbox
@@ -589,8 +649,18 @@ body {
     border-radius: 10px;
     background: #0063AE;
 }
-.Fresher_exp p{
-    margin: 0;color: #fff;font-family: Roboto;font-size: 19px;font-style: normal;font-weight: 500;line-height: normal;
+.Fresher_exp p {
+    margin: 0;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.backBtn_pst{
+    position: absolute;
+    top: 0;
 }
 
 
@@ -623,7 +693,7 @@ body {
 
     /* Create Profile */
     .profile_container {
-        background-size: 100% 16% !important;
+        background-size: 100% 25% !important;
         width: 100%;
         display: none;
     }
@@ -650,17 +720,16 @@ body {
         height: 95px;
     }
 
-    .profile-imgs {
-        top: 12%;
-    }
+    /* .profile-imgs {
+        top: 55%;
+    } */
 
     .mar_t38per {
         margin-top: 62% !important;
     }
-    .mar_t25per{
-        margin-top: 62% !important;
+    .mar_t25per {
+        margin-top: 38% !important;
     }
-
     .width_50per {
         width: 100%;
     }
@@ -682,10 +751,26 @@ body {
         margin-top: 30px !important;
     }
     .heading_h3 {
-        
         font-size: 18px;
-        
     }
-
+    .cover_bg {
+        height: 160px;
+    }
+    
+    
+    .social_icon .icon_name {
+        font-size: 18px;
+    }
+    .social_img {
+        width: 50px;
+    }
+    .heading_blue {
+        font-size: 18px;
+    }
+    .tick_icon {
+        
+        right: 12px;
+        width: 15px;
+    }
  
 }
