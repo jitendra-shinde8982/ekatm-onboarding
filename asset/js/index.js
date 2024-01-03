@@ -72,7 +72,7 @@ function addBankDetails(){
     
 }
 function addSocialPage(){
-    $("#createBankDetails").show()
+    $("#createSocialPage").show()
     $("#closeSocialPage").hide();
 }
 
