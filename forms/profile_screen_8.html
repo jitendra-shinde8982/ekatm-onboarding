@@ -66,7 +66,7 @@
     
         @keyframes anim {
             100% {
-                stroke-dashoffset: 140;
+                stroke-dashoffset: 100;
             }
     
         }
@@ -75,8 +75,8 @@
 <body>
 
 <div class="profile_panel">
-    <div class="profile_menu" id="closeSocialPage">
-        <h3>Welcome to Vritti onboarding process</h3>
+    <div class="profile_menu d_noneResp" >
+        <h3>Details submitted</h3>
         <div class="pro_bar">
             <div class="outer">
                 <div class="inner">
@@ -92,8 +92,9 @@
                     </linearGradient>
                 </defs>
                 <circle cx="68" cy="68" r="58" stroke-linecap="round"></circle>
-                &nbsp;
+                
             </svg>
+            <img src="../asset/images/successfully_submit.png" class="celeb_img">
         </div>
         <ul class="subMenu_heading">
             <li class="active" onclick="Createprofile()">Create your employee profile</li>
@@ -105,7 +106,7 @@
             <li class="active" onclick="addSocialPage()">Social media pages</li>
         </ul>
     </div>
-    <div class="profile_container" id="createSocialPage">
+    <div class="profile_container d_blockResp" >
         <div class="pst_rel"> 
             <div class="profile_bg">
                 <img src="../asset/images/cover_pic.png" class="cover_bg" alt="">
@@ -122,80 +123,113 @@
            
         </div>
         
-        <div class="mar_t30px padd-lr15">
-            <h3 class="heading_blue" >Follow us on- Vritti iMedia</h3>
+        <div id="respPage">
+            <div class="mar_t30px padd-lr15">
+                <h3 class="heading_blue" >Follow us on- Vritti iMedia</h3>
+                
+            </div>
+            <div class="d_flex mar_t30px padd-lr15 ">
+                <div class="social_icon ">
+                    <div class="img_icon">
+                        <img src="../asset/images/tick_icon.png" class="tick_icon">
+                        <img src="../asset/images/instagram.png"  class="social_img">
+                    </div>
+                    <p class="icon_name">Instagram</p>
+                </div>
+                <div class="social_icon">
+                    <div class="img_icon">
+                        <img src="../asset/images/tick_icon.png" class="tick_icon">
+                        <img src="../asset/images/facebook.png"  class="social_img">
+                    </div>
+                    <p class="icon_name">Facebook</p>
+                </div>
+                <div class="social_icon">
+                    <div class="img_icon">
+                        <img src="../asset/images/tick_icon.png" class="tick_icon">
+                        <img src="../asset/images/linkedin.png"  class="social_img">
+                    </div>
+                    <p class="icon_name">LinkedIn</p>
+                </div>
+                <div class="social_icon">
+                    <div class="img_icon">
+                        <img src="../asset/images/tick_icon.png" class="tick_icon">
+                        <img src="../asset/images/twitter.png"  class="social_img">
+                    </div>
+                    <p class="icon_name">Twitter</p>
+                </div>
+            </div>
+            <div class="mar_t30px padd-lr15">
+                <h3 class="heading_blue" >Follow us on- Vritti Solution</h3>
+                
+            </div>
+            
+            <div class="d_flex mar_t30px padd-lr15 ">
+                <div class="social_icon ">
+                    <div class="img_icon">
+                        <img src="../asset/images/tick_icon.png" class="tick_icon">
+                        <img src="../asset/images/instagram.png"  class="social_img">
+                    </div>
+                    <p class="icon_name">Instagram</p>
+                </div>
+                <div class="social_icon">
+                    <div class="img_icon">
+                        <img src="../asset/images/tick_icon.png" class="tick_icon">
+                        <img src="../asset/images/facebook.png"  class="social_img">
+                    </div>
+                    <p class="icon_name">Facebook</p>
+                </div>
+                <div class="social_icon">
+                    <div class="img_icon">
+                        <img src="../asset/images/tick_icon.png" class="tick_icon">
+                        <img src="../asset/images/linkedin.png"  class="social_img">
+                    </div>
+                    <p class="icon_name">LinkedIn</p>
+                </div>
+                <div class="social_icon">
+                    <div class="img_icon">
+                        <img src="../asset/images/tick_icon.png" class="tick_icon">
+                        <img src="../asset/images/twitter.png"  class="social_img">
+                    </div>
+                    <p class="icon_name">Twitter</p>
+                </div>
+            </div>
+
+            
             
         </div>
-        <div class="d_flex mar_t30px padd-lr15 ">
-            <div class="social_icon ">
-                <div class="img_icon">
-                    <img src="../asset/images/tick_icon.png" class="tick_icon">
-                    <img src="../asset/images/instagram.png"  class="social_img">
-                </div>
-                <p class="icon_name">Instagram</p>
-            </div>
-            <div class="social_icon">
-                <div class="img_icon">
-                    <img src="../asset/images/tick_icon.png" class="tick_icon">
-                    <img src="../asset/images/facebook.png"  class="social_img">
-                </div>
-                <p class="icon_name">Facebook</p>
-            </div>
-            <div class="social_icon">
-                <div class="img_icon">
-                    <img src="../asset/images/tick_icon.png" class="tick_icon">
-                    <img src="../asset/images/linkedin.png"  class="social_img">
-                </div>
-                <p class="icon_name">LinkedIn</p>
-            </div>
-            <div class="social_icon">
-                <div class="img_icon">
-                    <img src="../asset/images/tick_icon.png" class="tick_icon">
-                    <img src="../asset/images/twitter.png"  class="social_img">
-                </div>
-                <p class="icon_name">Twitter</p>
-            </div>
-        </div>
-        <div class="mar_t30px padd-lr15">
-            <h3 class="heading_blue" >Follow us on- Vritti Solution</h3>
-            
-        </div>
+        <div class="celebPage">
+            <div class="profile_menu" id="closeSocialPage">
+                <h3>Details submitted</h3>
+                <div class="pro_bar">
+                    <div class="outer">
+                        <div class="inner">
+                            <div id="perProgress">40%</div>
+                            <p>Profile</p>
+                        </div>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="svg-icon" version="1.1" width="160px" height="160px">
+                        <defs>
+                            <linearGradient id="GradientColor">
+                                <stop offset="0%" stop-color="#0063AE"></stop>
+                                <stop offset="100%" stop-color="#0063AE"></stop>
+                            </linearGradient>
+                        </defs>
+                        <circle cx="68" cy="68" r="58" stroke-linecap="round"></circle>
         
-        <div class="d_flex mar_t30px padd-lr15 ">
-            <div class="social_icon ">
-                <div class="img_icon">
-                    <img src="../asset/images/tick_icon.png" class="tick_icon">
-                    <img src="../asset/images/instagram.png"  class="social_img">
+                    </svg>
+                    <img src="../asset/images/successfully_submit.png" class="celeb_img">
                 </div>
-                <p class="icon_name">Instagram</p>
-            </div>
-            <div class="social_icon">
-                <div class="img_icon">
-                    <img src="../asset/images/tick_icon.png" class="tick_icon">
-                    <img src="../asset/images/facebook.png"  class="social_img">
+                <div class="mar_t80px mar_b30px right padd-lr15 text_center">
+                    <h3 class="heading_blue font_s18resp">Do remember to check our Vritti events</h3>
+                    <button class="btn_next" >View now</button>
                 </div>
-                <p class="icon_name">Facebook</p>
             </div>
-            <div class="social_icon">
-                <div class="img_icon">
-                    <img src="../asset/images/tick_icon.png" class="tick_icon">
-                    <img src="../asset/images/linkedin.png"  class="social_img">
-                </div>
-                <p class="icon_name">LinkedIn</p>
-            </div>
-            <div class="social_icon">
-                <div class="img_icon">
-                    <img src="../asset/images/tick_icon.png" class="tick_icon">
-                    <img src="../asset/images/twitter.png"  class="social_img">
-                </div>
-                <p class="icon_name">Twitter</p>
-            </div>
+           
         </div>
-        
         
         <div class="mar_t80px mar_b30px right padd-lr15 text_center">
-           
-            <button class="btn_next" onclick="onbordingDone()">Done</button>
+            <h3 class="heading_blue">Do remember to check our Vritti events</h3>
+            <button class="btn_next" >View now</button>
         </div>
     </div>
 </div>
@@ -208,7 +242,7 @@
     let number=document.getElementById("perProgress");
     let counter=0;
     setInterval(() =>{
-        if(counter==95){
+        if(counter==100){
             clearInterval();
         }
         else{

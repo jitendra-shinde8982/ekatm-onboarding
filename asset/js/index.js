@@ -135,7 +135,9 @@ function closemenu(){
 function socialPage(){
     window.location.href = "profile_screen_7.html";
 }
-
+function onbordingDone(){
+    window.location.href = "profile_screen_8.html";
+}
  function previewFile() {
     var preview = document.querySelector('#profile-image1');
     var file    = document.querySelector('input[type=file]').files[0];
