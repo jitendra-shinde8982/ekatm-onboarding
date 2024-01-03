@@ -1,16 +1,46 @@
 $("#openaddress").hide();
+$("#closeEductionDetails").hide()
+$("#closeEduction").hide()
+$("#deleteExp").hide()
 $("#closeExperiance").hide();
+$("#closeIcon").hide()
+$("#otherCmpInfo").hide();
 
 
-function iconhide_1(){
+function collapsEduction(){
+    $("#closeEductionDetails").show()
+    $("#closeEduction").show()
+    $("#openEduction").hide()
+    
+}
+function hideEduction(){
+    $("#closeEductionDetails").hide()
+    $("#openEduction").show()
+    $("#closeEduction").hide()
+    
+}
+
+
+function iconhide1(){
     $("#opendate1").hide();
 }
-function iconhide_2(){
+function iconhide2(){
     $("#opendate2").hide();
+}
+function iconhide_1(){
+    $("#opendate_1").hide();
+}
+function iconhide_2(){
+    $("#opendate_2").hide();
 }
 function showAdd() {
     $("#openaddress").show();
 }
+function showExp(){
+    $("#secoundExp").show();
+    $("#deleteExp").show();
+}
+
 function Createprofile(){
     $("#createProfile").show();
     $("#closeProfile").hide();
@@ -26,11 +56,40 @@ function addWorkExp(){
  $("#closework").hide();
  
 }
+function addEduction(){
+    $("#createEduction").show()
+    $("#closeEductionmenu").hide();
+    
+   }
 
 function collapsExperiance() {
     $("#closeExperiance").show();
-    // $("#closeExperiance").hide()
+   $("#plusIcon").hide();
+    $("#closeIcon").show();
+    $("#otherCmpInfo").show();
 }
+
+function collapsExperiance2(){
+    $("#closeExperiance").hide();
+    $("#plusIcon").show();
+    $("#closeIcon").hide();
+}
+
+function deleteSecExp(){
+    $("#secoundExp").hide();
+}
+function closemenu(){
+    $("#closeProfile").show();
+ }
+ function closemenu2(){
+    $("#closeProfile_2").show();
+ }
+ function closemenu3(){
+    $("#closework").show();
+ }
+ function closemenu4(){
+    $("#closeEductionmenu").show();
+ }
 
  function loginBtn(){
     window.location.href = "forms/profile_screen_1.html";
@@ -41,15 +100,10 @@ function collapsExperiance() {
  function workPage(){
     window.location.href = "profile_screen_3.html";
  }
- function closemenu(){
-    $("#closeProfile").show();
+ function eductionpage() {
+    window.location.href = "profile_screen_4.html";
  }
- function closemenu2(){
-    $("#closeProfile_2").show();
- }
- function closemenu3(){
-    $("#closework").show();
- }
+
 
  function previewFile() {
     var preview = document.querySelector('#profile-image1');
