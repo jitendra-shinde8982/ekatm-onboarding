@@ -428,7 +428,15 @@ body {
     overflow-x: hidden;
 }
 
-/* highlighter */
+input.floating-input:hover {
+    box-shadow: 0 0 0 0.25rem rgba(13,110,253,.25);
+}
+select.floating-select:hover {
+    box-shadow: 0 0 0 0.25rem rgba(13,110,253,.25);
+}
+textarea.floating-textarea:hover {
+    box-shadow: 0 0 0 0.25rem rgba(13,110,253,.25);
+}
 
 
 /* active state */
@@ -536,6 +544,9 @@ body {
     outline: none;
     border: none;
 }
+.btn_next:hover{
+    box-shadow: 6px 8px 5.3px 0px rgba(0, 0, 0, 0.11);
+}
 .btn_delete{
     margin-right: 20px;
     border-radius: 6px;
@@ -616,6 +627,10 @@ line-height: normal;
     font-weight: 400;
     line-height: normal;
     width: 100%;
+}
+.upld_doc:hover {
+    border-radius: 20px;
+    box-shadow: inset 1px 0px 0 0 rgb(0 0 0 / 0%), 0 6px 12px 2px rgb(17 108 167 / 8%);
 }
 /*************************************************************************************************
                                  Custom Checkbox
@@ -723,7 +738,10 @@ line-height: normal;
     display: none;
 
 }
-
+.mar-tb10{
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
 @media only screen and (max-width: 600px) {
 
     .font_s18resp{
