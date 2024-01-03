@@ -60,7 +60,21 @@ function addEduction(){
     $("#createEduction").show()
     $("#closeEductionmenu").hide();
     
+}
+function addCivics(){
+    $("#createCivics").show()
+    $("#closeCivics").hide();
+    
    }
+function addBankDetails(){
+    $("#createBankDetails").show()
+    $("#closeBankDetails").hide();
+    
+}
+function addSocialPage(){
+    $("#createBankDetails").show()
+    $("#closeSocialPage").hide();
+}
 
 function collapsExperiance() {
     $("#closeExperiance").show();
@@ -90,6 +104,15 @@ function closemenu(){
  function closemenu4(){
     $("#closeEductionmenu").show();
  }
+ function closemenu5(){
+    $("#closeCivics").show();
+ }
+ function closemenu6(){
+    $("#closeBankDetails").show();
+ }
+ function closemenu7(){
+    $("#closeBankDetails").show();
+ }
 
  function loginBtn(){
     window.location.href = "forms/profile_screen_1.html";
@@ -103,7 +126,15 @@ function closemenu(){
  function eductionpage() {
     window.location.href = "profile_screen_4.html";
  }
-
+ function CivicPage() {
+    window.location.href = "profile_screen_5.html";
+ }
+ function Bankpage() {
+    window.location.href = "profile_screen_6.html";
+ }
+function socialPage(){
+    window.location.href = "profile_screen_7.html";
+}
 
  function previewFile() {
     var preview = document.querySelector('#profile-image1');
