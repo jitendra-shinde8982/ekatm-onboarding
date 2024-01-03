@@ -803,19 +803,24 @@ line-height: normal;
     .cover_bg {
         height: 160px;
     }
+    .login_heading{
+        margin-bottom: 20px;
+    }
     .social_icon {
         padding: 0 5px;
     }
     .btn_details {
         font-size: 14px;
     }
-    
+    .mar_t80px {
+        margin-top: 50px;
+    }
     
     .social_icon .icon_name {
-        font-size: 18px;
+        font-size: 14px;
     }
     .social_img {
-        width: 50px;
+        width: 75px;
     }
     .heading_blue {
         font-size: 18px;
