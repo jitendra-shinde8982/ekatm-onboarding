@@ -724,7 +724,7 @@ line-height: normal;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: normal;
+    line-height: 1.5;
 }
 .backBtn_pst{
     position: absolute;
