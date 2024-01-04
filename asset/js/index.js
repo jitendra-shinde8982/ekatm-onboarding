@@ -94,24 +94,31 @@ function deleteSecExp(){
 }
 function closemenu(){
     $("#closeProfile").show();
+    $("#createProfile").hide()
  }
  function closemenu2(){
     $("#closeProfile_2").show();
+    $("#createProfile_2").hide()
  }
  function closemenu3(){
     $("#closework").show();
+    $("#creatework").hide()
  }
  function closemenu4(){
     $("#closeEductionmenu").show();
+    $("#createEduction").hide()
  }
  function closemenu5(){
     $("#closeCivics").show();
+    $("#createCivics").hide()
  }
  function closemenu6(){
     $("#closeBankDetails").show();
+    $("#createBankDetails").hide()
  }
  function closemenu7(){
     $("#closeBankDetails").show();
+    $("#createSocialPage").hide()
  }
 
  function loginBtn(){
