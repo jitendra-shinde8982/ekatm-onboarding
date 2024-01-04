@@ -226,6 +226,12 @@ body {
 }
 
 /* Margins */
+.mar_t24px{
+    margin-top: 24px;
+}
+.mar_t50px{
+    margin-top: 50px;
+}
 .mar_t80px{
     margin-top: 80px;
 }
@@ -268,6 +274,9 @@ body {
 
 .width_100per {
     width: 100%;
+}
+.width_75per {
+    width: 75%;
 }
 
 
