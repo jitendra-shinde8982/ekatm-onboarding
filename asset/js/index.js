@@ -4,7 +4,7 @@ $("#closeEduction").hide()
 $("#deleteExp").hide()
 $("#closeExperiance").hide();
 $("#closeIcon").hide()
-$("#iconComplete").hide();
+
 $("#otherCmpInfo").hide();
 
 
@@ -127,7 +127,7 @@ function closemenu(){
  }
  function personalDetails(){
     window.location.href = "profile_screen_2.html";
-   $("#iconComplete").show();
+   
  }
  function workPage(){
     window.location.href = "profile_screen_3.html";
@@ -165,4 +165,10 @@ $(function () {
         $('#profile-image-upload').click();
     });
 });
-          
+       
+// class chnage JS
+$(document).ready(function(){
+    $("#submitBtn").click(function(){
+      $("#cmplProfile").addClass("active");
+    });
+  });
