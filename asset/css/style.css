@@ -166,6 +166,8 @@ body {
     font-weight: 500;
     line-height: normal;
     margin: 0 5px 10px 5px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .active {
@@ -811,6 +813,7 @@ line-height: normal;
         background: #E0E0E0;
         color: #323131;
         padding: 14px 15px;
+        
     }
     .profile_menu h3 {
         font-size: 24px;
