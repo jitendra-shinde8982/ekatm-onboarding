@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,9 +14,9 @@
             height: 160px;
             position: relative;
             margin: auto;
-    
+
         }
-    
+
         .outer {
             background: #fff;
             width: 130px;
@@ -24,7 +25,7 @@
             padding: 10px;
             box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15), -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
         }
-    
+
         .inner {
             background: #F6F5F5;
             width: 110px;
@@ -33,7 +34,7 @@
             position: relative;
             box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2), inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7), -0.5px -0.5px 0px rgba(255, 255, 255, 1), 0.5px 0.5px 0px rgba(0, 0, 0, 0.15), 0px 12px 10px -10px rgba(0, 0, 0, 0.05);
         }
-    
+
         #perProgress {
             font-weight: 600;
             color: #0063AE;
@@ -41,14 +42,14 @@
             top: 46px;
             left: 45px;
         }
-    
+
         .inner p {
             position: absolute;
             top: 46px;
             left: 35px;
             color: #0063AE;
         }
-    
+
         circle {
             fill: none;
             stroke: url(#GradientColor);
@@ -57,25 +58,26 @@
             stroke-dashoffset: 472;
             animation: anim 2s linear forwards;
         }
-    
+
         .svg-icon {
             position: absolute;
             top: 0;
             left: 0;
         }
-    
+
         @keyframes anim {
             100% {
                 stroke-dashoffset: 472;
             }
-    
+
         }
     </style>
 </head>
+
 <body>
 
     <div class="profile_panel">
-        <div class="profile_menu"  id="closeProfile">
+        <div class="profile_menu" id="closeProfile">
             <h3>Welcome to Vritti onboarding process</h3>
             <div class="pro_bar">
                 <div class="outer">
@@ -106,7 +108,7 @@
             </ul>
         </div>
         <div class="profile_container" id="createProfile">
-            <div class="pst_rel"> 
+            <div class="pst_rel">
                 <div class="profile_bg">
                     <img src="../asset/images/cover_pic.png" class="cover_bg" alt="">
                 </div>
@@ -117,15 +119,19 @@
                 <div class="d-nb-resp backBtn_pst">
                     <button class="btn-backresp" onclick="closemenu()">
                         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13" fill="none">
-                            <path  d="M1.39785 6.10938H12.8704C13.0225 6.10938 13.1684 6.16981 13.276 6.27739C13.3836 6.38496 13.444 6.53087 13.444 6.683C13.444 6.83514 13.3836 6.98104 13.276 7.08862C13.1684 7.19619 13.0225 7.25663 12.8704 7.25663H1.39785C1.24571 7.25663 1.09981 7.19619 0.99223 7.08862C0.884654 6.98104 0.824219 6.83514 0.824219 6.683C0.824219 6.53087 0.884654 6.38496 0.99223 6.27739C1.09981 6.16981 1.24571 6.10938 1.39785 6.10938Z" fill="#929292" />
-                            <path d="M1.63576 6.6823L6.39342 11.4388C6.50113 11.5465 6.56164 11.6926 6.56164 11.8449C6.56164 11.9973 6.50113 12.1434 6.39342 12.2511C6.28571 12.3588 6.13962 12.4193 5.98729 12.4193C5.83496 12.4193 5.68888 12.3588 5.58116 12.2511L0.418524 7.08843C0.365104 7.03515 0.322722 6.97185 0.293804 6.90215C0.264885 6.83247 0.25 6.75775 0.25 6.6823C0.25 6.60685 0.264885 6.53214 0.293804 6.46245C0.322722 6.39276 0.365104 6.32946 0.418524 6.27618L5.58116 1.11354C5.68888 1.00582 5.83496 0.945313 5.98729 0.945312C6.13962 0.945313 6.28571 1.00582 6.39342 1.11354C6.50113 1.22125 6.56164 1.36734 6.56164 1.51966C6.56164 1.67199 6.50113 1.81808 6.39342 1.92579L1.63576 6.6823Z" fill="#929292" />
+                            <path
+                                d="M1.39785 6.10938H12.8704C13.0225 6.10938 13.1684 6.16981 13.276 6.27739C13.3836 6.38496 13.444 6.53087 13.444 6.683C13.444 6.83514 13.3836 6.98104 13.276 7.08862C13.1684 7.19619 13.0225 7.25663 12.8704 7.25663H1.39785C1.24571 7.25663 1.09981 7.19619 0.99223 7.08862C0.884654 6.98104 0.824219 6.83514 0.824219 6.683C0.824219 6.53087 0.884654 6.38496 0.99223 6.27739C1.09981 6.16981 1.24571 6.10938 1.39785 6.10938Z"
+                                fill="#929292" />
+                            <path
+                                d="M1.63576 6.6823L6.39342 11.4388C6.50113 11.5465 6.56164 11.6926 6.56164 11.8449C6.56164 11.9973 6.50113 12.1434 6.39342 12.2511C6.28571 12.3588 6.13962 12.4193 5.98729 12.4193C5.83496 12.4193 5.68888 12.3588 5.58116 12.2511L0.418524 7.08843C0.365104 7.03515 0.322722 6.97185 0.293804 6.90215C0.264885 6.83247 0.25 6.75775 0.25 6.6823C0.25 6.60685 0.264885 6.53214 0.293804 6.46245C0.322722 6.39276 0.365104 6.32946 0.418524 6.27618L5.58116 1.11354C5.68888 1.00582 5.83496 0.945313 5.98729 0.945312C6.13962 0.945313 6.28571 1.00582 6.39342 1.11354C6.50113 1.22125 6.56164 1.36734 6.56164 1.51966C6.56164 1.67199 6.50113 1.81808 6.39342 1.92579L1.63576 6.6823Z"
+                                fill="#929292" />
                         </svg>
                     </button>
                 </div>
-               
+
             </div>
-            
-        
+
+
             <div class="d_flex mar_t80px padd-lr15">
                 <div class="floating-label width_50per mar-r5">
                     <input class="floating-input " type="text" placeholder=" ">
@@ -144,40 +150,37 @@
 
                     <label class="label-data">Designation </label>
                 </div>
-              
+
             </div>
             <div class="d_flex_list  mar_t30px padd-lr15">
                 <div class="floating-label width_50per mar-r5 mar-rl0resp ">
-                    <input class="floating-input Mandatory-f-border" type="text" onclick="(this.type='date'); iconhide1()" placeholder=" ">
-                    <label class="label-data ">Joining date<sup>*</sup></label>
-                    <img src="../asset/images/date_img.png" class="date-picker" id="opendate1">
-                    <span style="display: none;">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13" fill="none">
-                            <path d="M7.61907 0.33634C7.37688 -0.112113 6.62372 -0.112113 6.38154 0.33634L0.0818505 11.9934C0.0251418 12.0979 -0.00297186 12.2149 0.000248621 12.3332C0.0034691 12.4515 0.0379139 12.567 0.100227 12.6684C0.16254 12.7697 0.250596 12.8536 0.355815 12.9117C0.461034 12.9698 0.579827 13.0002 0.70062 13H13.3C13.4207 13.0002 13.5394 12.9698 13.6446 12.9118C13.7497 12.8537 13.8377 12.7699 13.8999 12.6686C13.9622 12.5673 13.9966 12.4519 13.9998 12.3337C14.0029 12.2154 13.9748 12.0984 13.9181 11.9941L7.61907 0.33634ZM7.70027 10.9429H6.30034V9.57146H7.70027V10.9429ZM6.30034 8.20004V4.7715H7.70027L7.70097 8.20004H6.30034Z" fill="#F8000F"></path>
-                        </svg>
-                      This filed is required
-                    </span>
+                    <input class="floating-input custdatepicker" type="text" onclick="(this.type='date'); iconhide1()" placeholder=" ">
+                    <label class="label-data ">Joining date</label>
+
+
                 </div>
                 <div class="floating-label width_50per mar-l5 mar-rl0resp  mar-t30resp">
-                    <input class="floating-input Mandatory-f-border" type="text" onclick="(this.type='date'); iconhide2()" placeholder=" ">
-                    <label class="label-data ">Date of birth <sup>*</sup></label>
-                    <img src="../asset/images/date_img.png" class="date-picker" id="opendate2">
-                    <span style="display: none;">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13" fill="none">
-                            <path d="M7.61907 0.33634C7.37688 -0.112113 6.62372 -0.112113 6.38154 0.33634L0.0818505 11.9934C0.0251418 12.0979 -0.00297186 12.2149 0.000248621 12.3332C0.0034691 12.4515 0.0379139 12.567 0.100227 12.6684C0.16254 12.7697 0.250596 12.8536 0.355815 12.9117C0.461034 12.9698 0.579827 13.0002 0.70062 13H13.3C13.4207 13.0002 13.5394 12.9698 13.6446 12.9118C13.7497 12.8537 13.8377 12.7699 13.8999 12.6686C13.9622 12.5673 13.9966 12.4519 13.9998 12.3337C14.0029 12.2154 13.9748 12.0984 13.9181 11.9941L7.61907 0.33634ZM7.70027 10.9429H6.30034V9.57146H7.70027V10.9429ZM6.30034 8.20004V4.7715H7.70027L7.70097 8.20004H6.30034Z" fill="#F8000F"></path>
-                        </svg>
-                      This filed is required
-                    </span>
+                    <input class="floating-input custdatepicker" type="text" onclick="(this.type='date'); iconhide2()" placeholder=" ">
+                    <label class="label-data ">Date of birth</label>
+                  
                 </div>
-               
+
             </div>
             <div class="d_flex mar_t30px padd-lr15">
                 <div class="floating-label width_100per ">
-                    <input class="floating-input " type="text" placeholder=" ">
+                    <input class="floating-input  Mandatory-f-border" type="text" placeholder=" ">
 
-                    <label class="label-data">Enter email address </label>
+                    <label class="label-data">Enter email address<sup>*</sup> </label>
+                    <span style="display: none;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13" fill="none">
+                            <path
+                                d="M7.61907 0.33634C7.37688 -0.112113 6.62372 -0.112113 6.38154 0.33634L0.0818505 11.9934C0.0251418 12.0979 -0.00297186 12.2149 0.000248621 12.3332C0.0034691 12.4515 0.0379139 12.567 0.100227 12.6684C0.16254 12.7697 0.250596 12.8536 0.355815 12.9117C0.461034 12.9698 0.579827 13.0002 0.70062 13H13.3C13.4207 13.0002 13.5394 12.9698 13.6446 12.9118C13.7497 12.8537 13.8377 12.7699 13.8999 12.6686C13.9622 12.5673 13.9966 12.4519 13.9998 12.3337C14.0029 12.2154 13.9748 12.0984 13.9181 11.9941L7.61907 0.33634ZM7.70027 10.9429H6.30034V9.57146H7.70027V10.9429ZM6.30034 8.20004V4.7715H7.70027L7.70097 8.20004H6.30034Z"
+                                fill="#F8000F"></path>
+                        </svg>
+                        This filed is required
+                    </span>
                 </div>
-              
+
             </div>
             <div class="d_flex mar_t30px padd-lr15">
                 <div class="floating-label width_100per ">
@@ -185,10 +188,10 @@
 
                     <label class="label-data">Enter permant address</label>
                 </div>
-              
+
             </div>
             <div class="d_flex mar_t15px padd-lr15">
-                <button class="btn_details" onclick="showAdd()">+ Add more detail</button> 
+                <button class="btn_details" onclick="showAdd()">+ Add more detail</button>
             </div>
             <div class="d_flex mar_t30px padd-lr15" id="openaddress">
                 <div class="floating-label width_100per ">
@@ -196,7 +199,7 @@
 
                     <label class="label-data">Enter present address </label>
                 </div>
-              
+
             </div>
             <div class="d_flex mar_t15px padd-lr15">
                 <div class="floating-label width_50per mar-r5">
@@ -205,20 +208,28 @@
                     <label class="label-data">Postal code </label>
                 </div>
                 <div class="floating-label width_50per mar-l5">
-                    <input class="floating-input " type="text" placeholder=" ">
+                    <input class="floating-input Mandatory-f-border" type="text" placeholder=" ">
 
-                    <label class="label-data">Mobile no.</label>
+                    <label class="label-data">Mobile no.<sup>*</sup></label>
+                    <span style="display: none;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13" fill="none">
+                            <path
+                                d="M7.61907 0.33634C7.37688 -0.112113 6.62372 -0.112113 6.38154 0.33634L0.0818505 11.9934C0.0251418 12.0979 -0.00297186 12.2149 0.000248621 12.3332C0.0034691 12.4515 0.0379139 12.567 0.100227 12.6684C0.16254 12.7697 0.250596 12.8536 0.355815 12.9117C0.461034 12.9698 0.579827 13.0002 0.70062 13H13.3C13.4207 13.0002 13.5394 12.9698 13.6446 12.9118C13.7497 12.8537 13.8377 12.7699 13.8999 12.6686C13.9622 12.5673 13.9966 12.4519 13.9998 12.3337C14.0029 12.2154 13.9748 12.0984 13.9181 11.9941L7.61907 0.33634ZM7.70027 10.9429H6.30034V9.57146H7.70027V10.9429ZM6.30034 8.20004V4.7715H7.70027L7.70097 8.20004H6.30034Z"
+                                fill="#F8000F"></path>
+                        </svg>
+                        This filed is required
+                    </span>
                 </div>
             </div>
             <div class="d_flex mar_t30px padd-lr15">
                 <div class="floating-label width_50per mar-r5">
-            
+
                     <select class="floating-select  " onclick="this.setAttribute('value', this.value);" value="">
                         <option value=""></option>
                         <option value="1">Option 1</option>
                         <option value="2">Option 1</option>
                         <option value="3">Option 1</option>
-                    
+
                     </select>
 
                     <label class="label-data">Gender</label>
@@ -229,7 +240,7 @@
                         <option value="1">Option 1</option>
                         <option value="2">Option 1</option>
                         <option value="3">Option 1</option>
-                    
+
                     </select>
 
                     <label class="label-data">Marital status</label>
@@ -237,9 +248,17 @@
             </div>
             <div class="d_flex_list  mar_t30px padd-lr15">
                 <div class="floating-label width_50per mar-r5 mar-rl0resp ">
-                    <input class="floating-input " type="text" placeholder=" ">
+                    <input class="floating-input  Mandatory-f-border" type="text" placeholder=" ">
 
-                    <label class="label-data">Emergency no.</label>
+                    <label class="label-data">Emergency no.<sup>*</sup></label>
+                    <span style="display: none;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13" fill="none">
+                            <path
+                                d="M7.61907 0.33634C7.37688 -0.112113 6.62372 -0.112113 6.38154 0.33634L0.0818505 11.9934C0.0251418 12.0979 -0.00297186 12.2149 0.000248621 12.3332C0.0034691 12.4515 0.0379139 12.567 0.100227 12.6684C0.16254 12.7697 0.250596 12.8536 0.355815 12.9117C0.461034 12.9698 0.579827 13.0002 0.70062 13H13.3C13.4207 13.0002 13.5394 12.9698 13.6446 12.9118C13.7497 12.8537 13.8377 12.7699 13.8999 12.6686C13.9622 12.5673 13.9966 12.4519 13.9998 12.3337C14.0029 12.2154 13.9748 12.0984 13.9181 11.9941L7.61907 0.33634ZM7.70027 10.9429H6.30034V9.57146H7.70027V10.9429ZM6.30034 8.20004V4.7715H7.70027L7.70097 8.20004H6.30034Z"
+                                fill="#F8000F"></path>
+                        </svg>
+                        This filed is required
+                    </span>
                 </div>
                 <div class="floating-label width_50per mar-l5 mar-rl0resp  mar-t30resp">
                     <input class="floating-input " type="text" placeholder=" ">
@@ -247,12 +266,21 @@
                     <label class="label-data">Name of person to contact for emergency</label>
                 </div>
             </div>
+            <div class="d_flex_list  mar_t30px padd-lr15">
+                <div class="floating-label width_50per mar-r5 mar-rl0resp ">
+                    <input class="floating-input " type="text" placeholder=" ">
+
+                    <label class="label-data">Blood Group</label>
+                </div>
+
+            </div>
             <div class="d_flex mar_t30px mar_b30px right padd-lr15">
-                <button class="btn_next" onclick="personalDetails()">Submit</button>
+                <button class="btn_back mar-5">Back</button>
+                <button class="btn_next mar-5" onclick="personalDetails()">Submit</button>
             </div>
         </div>
     </div>
-    
+
 
 
 
@@ -260,21 +288,22 @@
     <script src="../asset/js/index.js"></script>
 
     <script>
-        let number=document.getElementById("perProgress");
-        let counter=0;
-        setInterval(() =>{
-            if(counter==65){
+        let number = document.getElementById("perProgress");
+        let counter = 0;
+        setInterval(() => {
+            if (counter == 65) {
                 clearInterval();
             }
-            else{
-                counter +=0;
-            number.innerHTML= counter + "%"
+            else {
+                counter += 0;
+                number.innerHTML = counter + "%"
             }
         }, 30)
 
 
-        
+
 
     </script>
 </body>
+
 </html>

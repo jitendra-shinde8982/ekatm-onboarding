@@ -353,7 +353,7 @@ body {
     width: 100%;
     background-color: transparent;
     border: none;
-    border: 1.5px solid #0063AE;
+    border: 1.5px solid #4b4b4b;
 }
 
 .floating-input:focus,
@@ -373,6 +373,9 @@ body {
     border: 2px solid #F8000F !important;
 
 }
+.Mandatory-f-border:hover{
+    box-shadow: 0 0 0 0.25rem rgba(255, 78, 78, 0.25);
+}
 
 .Mandatoryborder {
     border: 1px solid #F8000F  !important;
@@ -391,6 +394,22 @@ body {
     -moz-transition: 0.1s ease all;
     -webkit-transition: 0.1s ease all;
 }
+
+
+.custdatepicker::-webkit-calendar-picker-indicator {
+    display: none;
+}
+.custdatepicker {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url(../images/date_img.png);
+    appearance: none;
+    background-repeat: no-repeat;
+    background-position: 98%;
+    background-size: 20px auto;
+}
+
 
 .label-data sup {
     color: red;
@@ -538,6 +557,21 @@ textarea.floating-textarea:hover {
 
 .btn_details:hover {
     text-decoration: underline;
+}
+.btn_back {
+    padding: 8px 30px;
+    color: #0063AE;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 1px -1px 5.3px 0px rgba(100, 139, 175, 0.05);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    outline: none;
+    border: 1px solid #0063AE;
 }
 
 .btn_next {
@@ -748,6 +782,9 @@ line-height: normal;
 .celebPage{
     display: none;
 
+}
+.mar-5{
+    margin: 5px !important;
 }
 .mar-tb10{
     margin-top: 10px !important;
