@@ -513,6 +513,14 @@ textarea.floating-textarea:hover {
 
 
 /***   daniel - Fork me friend - style   ***/
+.icon_select {
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="9" height="6" viewBox="0 0 9 6" fill="none"%3E%3Cpath d="M4.5 6L0 0H9L4.5 6Z" fill="%230063AE"%3E%3C/path%3E%3C/svg%3E');
+    appearance: none;
+    background-repeat: no-repeat;
+    background-position: 98%;
+}
+
+
 .floating-credit {
     position: fixed;
     bottom: 10px;
