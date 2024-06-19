@@ -374,7 +374,7 @@ body {
 
 }
 .Mandatory-f-border:hover{
-    box-shadow: 0 0 0 0.25rem rgba(255, 78, 78, 0.25);
+    box-shadow: 0 0 0 0.25rem rgb(252 156 156 / 25%) ! IMPORTANT;
 }
 
 .Mandatoryborder {
